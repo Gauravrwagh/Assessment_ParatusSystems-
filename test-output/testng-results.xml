@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="933" started-at="2024-03-18T17:00:40 IST" finished-at="2024-03-18T17:00:41 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1f27fae]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="933" started-at="2024-03-18T17:00:40 IST" finished-at="2024-03-18T17:00:41 IST">
+      <class name="runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@1f27fae]" name="setUpClass" is-config="true" duration-ms="640" started-at="2024-03-18T17:00:40 IST" finished-at="2024-03-18T17:00:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@a20101]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1f27fae]" name="runScenario" duration-ms="115" started-at="2024-03-18T17:00:41 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-18T17:00:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["compose and send email with all neccessary fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["compose and send email in Gmail"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1f27fae]" name="runScenario" duration-ms="21" started-at="2024-03-18T17:00:41 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-18T17:00:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Compose and send email without subject field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["compose and send email in Gmail"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1f27fae]" name="runScenario" duration-ms="12" started-at="2024-03-18T17:00:41 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-18T17:00:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Compose and send email without message body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["compose and send email in Gmail"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1f27fae]" name="runScenario" duration-ms="11" started-at="2024-03-18T17:00:41 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-18T17:00:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Compose and send email without entering subject and message body"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["compose and send email in Gmail"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1f27fae]" name="runScenario" duration-ms="11" started-at="2024-03-18T17:00:41 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-18T17:00:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Compose and send email to wrong recipients emailID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["compose and send email in Gmail"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1f27fae]" name="runScenario" duration-ms="11" started-at="2024-03-18T17:00:41 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-18T17:00:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should not compose and send an email  without entering Recipients Email Id."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["compose and send email in Gmail"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@1f27fae]" name="tearDownClass" is-config="true" duration-ms="71" started-at="2024-03-18T17:00:41 IST" finished-at="2024-03-18T17:00:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
